@@ -35,6 +35,7 @@ pipeline{
                     fileIncludePattern: "**/cucumber.json",
                     jsonReportDirectory: 'target'
 
+                echo "CUCUMBER tests report: ${BUILD_URL}cucumber-html-reports/overview-features.html"
             }
 
         }
