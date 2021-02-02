@@ -8,8 +8,8 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources",
         glue = "com.techprimers.testing",
-        //format = {"json:target/cucumber.json"}
-        format = {"pretty", "html:target/Destination"}
+        format = {"json:target/cucumber.json"}
+        //format = {"pretty", "html:target/Destination"}
 )
 public class CucumberTest {
 }
